@@ -1,0 +1,31 @@
+{
+  "webserver":{
+    "port":8086,
+    "basePath":"/services/iid-server"
+  },
+  "services":{
+    "cds":{
+      "http":{
+        "host":"localhost",
+        "port":8080,
+        "secure":false,
+        "path":"/services/cds"
+      }
+    },
+    "auth":{
+      "eb":"appsist:service:auth"
+    }
+  },
+  "locations":[
+    {
+      "id":"station-20",
+      "type":"fix",
+      "displayName":"Anlage 1: Station 20",
+      "building":"Halle 1",
+      "raw":{
+
+      }
+    }
+  ],
+  "debugMode":true
+}

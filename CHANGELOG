@@ -1,0 +1,41 @@
+2.0.2 --2016-11-14
+- [FIX] Catalog items are now sorted by priority. [APPSIST-297]
+
+2.0.1 -- 2016-10-18
+- [FIX] Updated fixed connector dependency. 
+
+2.0.0 -- 2016-07-05
+- [MAJOR] Extracted client as separated module.
+
+1.5.3 -- 2016-07-01
+- [NEW] Added SMS sending of notification.
+
+1.5.2 -- 2016-06-28
+- [FIX] Fixed empty screen after reconnect.
+
+1.5.0 -- 2016-06-28
+- [UPDATE] Refactored client server connection to improve reconnection.
+- [FIX] Added error responses for unimplemented client calls (dismissNotification, displayStationInfo).
+- [FIX] Added confirmation for view releases.
+
+1.4.5 -- 2016-06-16
+- [NEW] Added heath check.
+
+1.4.4 -- 2016-05-09
+- [FIX] Close local sessions after logout. [APPSIST-296]
+
+1.2.6-SNAPSHOT
+- [NEW] Added heartbeat to auto-logout disconnected users. 
+
+1.2.5-SNAPSHOT
+- Added API to set user activity for clients and retrieve user activity for services.
+
+1.1.0 -- 25.09.2015
+- Session identifiers and authorization tokens are now automatically added to all types of actions.
+- Added API to store location for client and retrieve latest location for services.
+
+1.0.1 -- 24.09.2015
+- Updated dependency for commons-event.
+
+1.0.0 -- 24.09.2015
+- Tagged version for milestone 4. 

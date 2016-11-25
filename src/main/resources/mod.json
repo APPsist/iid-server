@@ -1,0 +1,12 @@
+{
+	"main" : "de.appsist.service.iid.server.MainVerticle",
+
+	"description" : "Server component of the APPsist Content Interaction Service",
+	"licenses" : ["The Apache Software License Version 2.0"],
+	"author" : "Simon Schwantzer",
+
+	"keywords": ["appsist", "iid", "frontend"],
+	"homepage": "http://www.appsist.de/",
+
+	"auto-redeploy": true
+}
